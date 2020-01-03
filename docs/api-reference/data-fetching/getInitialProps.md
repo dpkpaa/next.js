@@ -42,6 +42,7 @@ class Page extends React.Component {
   }
 
   render() {
+    const {stars} = this.props
     return <div>Next stars: {stars}</div>
   }
 }
